@@ -11,5 +11,5 @@ public record Message
     public bool TemplateLanguage { get; set; } = true;
     public List<Attachment>? Attachments { get; set; }
     public string? Subject { get; set; }
-    Dictionary<string, string>? Variables { get; set; }
+    public Dictionary<string, string>? Variables { get; set; }
 }
