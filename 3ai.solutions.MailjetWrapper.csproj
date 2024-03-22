@@ -6,7 +6,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Version>8.$([System.DateTime]::UtcNow.Date.Subtract($([System.DateTime]::Parse("2000-01-01"))).TotalDays).$([System.DateTime]::UtcNow.Hour)</Version>
-		<PackageDescription>Simple wrapper for Brevo</PackageDescription>
+		<PackageDescription>Simple wrapper for Mailjet for sending Transactional Emails, with variables and attachments</PackageDescription>
 		<RepositoryUrl>https://github.com/3AISolutions/3ai.solutions.MailjetWrapper/</RepositoryUrl>
 	</PropertyGroup>
 
